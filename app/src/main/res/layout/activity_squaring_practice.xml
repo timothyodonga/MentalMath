@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.timothyodonga.mentalmath.SquaringPractice">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Solve these problems in 20 seconds"
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40 ^ 2 = "
+            android:textColor="@color/colorText"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/squaring_answer_1_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter a your answer here" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="130 ^ 2 = "
+            android:textColor="@color/colorText"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/squaring_answer_2_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter a your answer here" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="65 ^ 2 = "
+            android:textColor="@color/colorText"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/squaring_answer_3_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter a your answer here" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="115 ^ 2 = "
+            android:textColor="@color/colorText"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/squaring_answer_4_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter a your answer here" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/squaring_answers_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Submit"
+        android:background="@color/colorSubmitButton"
+        android:textColor="@color/colorText"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/squaring_report_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Press Submit when done"
+        android:textColor="@color/colorText" />
+
+    <Button
+        android:id="@+id/squaring_practice_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackButton"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="8dp"
+        android:text="Back"
+        android:textSize="16sp" />
+
+</LinearLayout>

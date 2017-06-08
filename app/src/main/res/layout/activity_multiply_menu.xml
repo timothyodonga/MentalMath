@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.timothyodonga.mentalmath.MultiplyMenu">
+
+    <TextView
+        android:id="@+id/multiply_prompt_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiply"
+        android:textColor="@color/colorText"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="72dp"/>
+
+    <Button
+        android:id="@+id/multiply_tutorial_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorial"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        android:layout_below="@id/multiply_prompt_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/multiply_practice_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practice"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        android:layout_below="@id/multiply_tutorial_button"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/multiply_main_menu_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Back"
+        android:background="@color/colorBackButton"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:orientation="vertical"
+    tools:context="com.example.timothyodonga.mentalmath.MultiplyTutorial">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="If you have two numbers, where one is a multiple of 5 and the other is even "
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="1.Double the multiple of 5"
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="2. Halve the even number"
+        android:textColor="@color/colorText"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/multiply_tutorial_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:text="Back"
+        android:background="@color/colorBackButton"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>

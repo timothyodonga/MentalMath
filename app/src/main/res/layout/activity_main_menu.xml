@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.timothyodonga.mentalmath.MainMenu">
+
+    <TextView
+        android:id="@+id/menu_prompt_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="72dp"
+        android:text="Choose one of the following:"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/divide_by_five_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/menu_prompt_textview"
+        android:text="Divide by 5"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/multiplication_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/divide_by_five_button"
+        android:text="Multiplication"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/squaring_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/multiplication_button"
+        android:text="Squaring Numbers"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/back_to_main_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackButton"
+        android:layout_margin="8dp"
+        android:text="Back"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
